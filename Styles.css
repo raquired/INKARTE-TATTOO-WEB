@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    width: 1920px;
+    margin: auto;
+    font-family: 'Manrope', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+/* TEXTO */
+
+h1{
+    font-size: 32px;
+    padding: 3% 0 1% 0;
+}
+h2{
+    font-size: 40px;
+    font-weight: 200;
+}
+h3{
+    font-size: 30px;
+    font-weight: 200;
+}
+p{
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+
+/* BARRA DE SCROLL */
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+	background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #c1c1c1;
+}
+::-webkit-scrollbar-thumb:hover{   	
+	background: #888888;
+}
+
+/* BARRA DE NAVEGADOR */
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 1920px;
+    height: 100px;
+    background-color: #00000092;
+    z-index: 0;
+    cursor: url(logo/cursor-blanco.svg) 20 20, auto;
+}
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    width: 200px;
+    height: 54px;
+
+}
+.navegador{
+    position: absolute;
+    top: 20px;
+    right: 90px;
+    font-weight: 400;
+}
+ul {
+    list-style-type: none;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+li {
+    position: relative;
+    display: inline-block;
+}
+li > a {
+    display: block;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: #fff;
+}
+li ul {
+    position: absolute;
+    display: none;
+    background-color: rgb(0, 0, 0);
+    top: 50px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+li:hover ul {
+    display: block;
+}
+li ul li {
+    display: block;
+}
+li ul li a {
+    padding: 5px 30px;
+ }
+ li ul li a:hover {
+    font-weight: 600;
+ }
+
+/* CABECERA */
+
+.cabecera{
+    height: auto;
+    padding: 17% 26% 4% 26%;
+    background-image: url(img/pexels-pavel-danilyuk-6593500-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    color: white;
+    text-align: center;
+    cursor: url(logo/cursor-blanco.svg) 20 20, auto; 
+}
+.imagotipo{
+      height: 520px;
+      padding: 3% 0;
+}
+
+/* SECTION ESTILOS */
+
+#sectionEstilos{
+    height: 750px;
+    text-align: center;
+    padding: 9.5% 7%;
+    cursor: url(logo/cursor-negro.svg) 20 20, auto;
+}
+
+/* SECTION HISTORIA */
+
+#sectionHistoria{
+    height: 800px;
+    text-align: center;
+    padding: 9.5% 7%;
+    cursor: url(logo/cursor-negro.svg) 20 20, auto;
+}
+.titulo{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    text-align: left;
+    color: rgb(255, 0, 0);
+}
+.descripcion{
+    width: 800px;
+    height: 100%;
+    display: inline-block;
+    text-align: left;
+}
+.descripcion a{
+    color: rgb(255, 0, 0);
+}
+.descripcion a:hover{
+    color: black;
+}
+
+/* SECTION ARTIST */
+
+#sectionArtist{
+    width: 100%;
+    height: auto;
+    padding: 6% 5%;
+    text-align: center;
+    background-color: black;
+    cursor: url(logo/cursor-blanco.svg) 20 20, auto;
+}
+.box{
+    display: inline-block;
+    padding: 0% 1%;
+    
+}
+.box img{
+    width: 500px;
+}
+#sectionArtist h2{
+   color: white;
+   padding: 0 0 2% 0; 
+}
+#sectionArtist h3{
+    color: white;
+}
+
+/* BANNER */
+
+.banner{
+    width: 100%;
+    cursor: url(logo/cursor-blanco.svg) 20 20, auto;
+}
+
+/* FOOTER */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+th, td {
+    border: 1px solid #ffffff30;
+    padding: 1% 2%;
+    text-align: left;
+}
+footer{
+    height: auto;
+    background-color: black;
+    text-align: center;
+    margin-top: -5px;
+    cursor: url(logo/cursor-blanco.svg) 20 20, auto;
+}
+.maps{
+    margin-left: -1px;
+}
+#sectionFooter{
+    text-align: center;    
+    background-color: black;
+    cursor: url(logo/cursor-blanco.svg) 20 20, auto;
+    padding-top: 3%;
+}
+#sectionFooter .box {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+    height: 100%; 
+    width: 420px;
+}
+#sectionFooter .box:first-child {
+    border-right: 2px solid white;
+}
+#sectionFooter .box:nth-child(3) {
+    border-left: 2px solid white;
+}
+#sectionFooter .box img{
+    height: 223px;
+    width: auto;
+}
+.icons{
+    display: inline-block;
+    font-size: 60px;
+}
+.icons .fab:hover{
+    color: rgb(255, 0, 0);
+}
+.icons a {
+    display: block;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.footertext{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 2%;
+}
+
+::selection {
+    background-color: red;
+    color: white; /* Este es el color del texto cuando está seleccionado */
+}
+
