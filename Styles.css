@@ -130,6 +130,7 @@ li ul li a {
     text-align: center;
     cursor: url(logo/cursor-blanco.svg) 20 20, auto; 
 }
+
 .imagotipo{
       height: 520px;
       padding: 3% 0;
@@ -273,4 +274,81 @@ footer{
     background-color: red;
     color: white; /* Este es el color del texto cuando está seleccionado */
 }
+
+/*************PÁGINA DE PORTFOLIO***************/
+
+/*CABECERA*/
+
+video{
+    position: absolute;
+    z-index: -3;
+}
+.cabeceraPortfolio{
+    height: 1080px;
+    padding: 22% 30% 15% 30%;
+    align-content: center;
+    color: white;
+    text-align: center;
+    cursor: url(logo/cursor-blanco.svg) 20 20, auto; 
+    background-color: #0000005d;
+    background-size: cover;
+}
+.logotipoPortfolio{
+    width: 430px;
+    padding: 5%;
+}
+.cabeceraPortfolio h1{
+    font-size: 128px;
+    font-weight: 300;
+    padding: 2%;
+}
+/*GALERÍA*/
+
+.sectionWhite{
+    width: auto;
+    height: auto;
+    padding: 5% 22%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    cursor: url(logo/cursor-negro.svg) 20 20, auto;
+}
+.sectionBlack{
+    width: auto;
+    height: auto;
+    padding: 5% 22%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    cursor: url(logo/cursor-blanco.svg) 20 20, auto;
+}
+
+.textoPortfolioRight{
+    width: auto;
+    height: auto;
+    text-align: right;
+    padding: 0% 0% 3% 50%;
+}
+.textoPortfolioLeft{
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 0% 50% 3% 0%;
+}
+.left{
+    margin-left: 3.1%;
+    margin-bottom: 3.1%;
+    margin-top: 3.1%;
+}
+.right{
+    margin-right: 3.1%;
+    margin-bottom: 3.1%;
+    margin-top: 3.1%;
+}
+.sectionWhite h2,.sectionBlack h2{
+    font-size: 63px;
+}
+
+
+
 
